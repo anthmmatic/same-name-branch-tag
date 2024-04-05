@@ -1,0 +1,8 @@
+name: 'Echo tag or branch'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Echo value
+      run: echo "tag"
+      shell: bash
