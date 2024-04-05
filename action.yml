@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps:
     - name: Echo value
-      run: echo "tag"
+      run: echo "branch"
       shell: bash
