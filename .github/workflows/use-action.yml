@@ -1,0 +1,8 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  job-name:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anthmmatic/same-name-branch-tag@v1.0.0
